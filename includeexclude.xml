@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Include and Exclude Group">  
+	<groups>  
+		<run>  
+			<include name="Include Group"/>  
+			<exclude name="Exclude Group"/>  
+		</run>  
+	</groups>  
+    <classes>
+      <class name="include_excludeGroups.Include_Exclude"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
